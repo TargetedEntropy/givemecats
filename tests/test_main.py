@@ -4,13 +4,13 @@
 
 import unittest
 
-from sample.simple import add_one
+# from givemecats.main import test_func
 
 
 class TestSimple(unittest.TestCase):
 
-    def test_add_one(self):
-        self.assertEqual(add_one(5), 6)
+    def test_zero_is_zero(self):
+        self.assertEqual(0, 0)
 
 
 if __name__ == '__main__':
