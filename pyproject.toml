@@ -129,11 +129,11 @@ test = ["coverage"]
 # maintainers, and where to support the project financially. The key is
 # what's used to render the link text on PyPI.
 [project.urls]  # Optional
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Reports" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/TargetedEntropy/givemecats"
+"Bug Reports" = "https://github.com/TargetedEntropy/givemecats/issues"
 "Funding" = "https://donate.pypi.org"
 "Say Thanks!" = "http://saythanks.io/to/example"
-"Source" = "https://github.com/pypa/sampleproject/"
+"Source" = "https://github.com/TargetedEntropy/givemecats/"
 
 # The following would provide a command line executable called `sample`
 # which executes the function `main` from this package when invoked.
@@ -145,7 +145,7 @@ sample = "sample:main"
 [tool.setuptools]
 # If there are data files included in your packages that need to be
 # installed, specify them here.
-package-data = {"sample" = ["*.dat"]}
+package-data = {"sample" = ["Dockerfile"]}
 
 [build-system]
 # These are the assumed default build requirements from pip:
